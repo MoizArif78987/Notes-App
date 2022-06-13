@@ -40,10 +40,16 @@
     <!-- BOOTSTRAP CARD FOR NOTES -->
     <div class="card border-info mb-3">       
          <div class="card-body">
-          <h5 class="card-title">Create Note</h5>
-        <!-- BOOTSTRAP TEXT AREA -->
+            <h5 class="card-title">Add Note Title</h5>
+        <!-- BOOTSTRAP TEXT AREA FOR TITLE -->
+            <div class="form-floating">
+                <textarea id="addTitle" class="form-control" value="" placeholder="Write your Note Title, here..." style="height: 70px"></textarea>
+                <label for="addTxt"></label>
+            </div>
+            <h5 class="card-title">Create Note</h5>
+        <!-- BOOTSTRAP TEXT AREA FOR NOTE ITSELF -->
         <div class="form-floating">
-            <textarea id="addTxt" class="form-control" value="" placeholder="Write your Note , here..." style="height: 100px"></textarea>
+            <textarea id="addTxt" class="form-control" value="" placeholder="Write your Note , here..." style="height: 120px"></textarea>
             <label for="addTxt"></label>
         </div>
 
